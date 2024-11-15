@@ -77,3 +77,21 @@ footer a {
 }
 p{ font-style: italic;}
 
+#cv {
+    padding: 1.5rem; /* Moins de padding sur mobile */
+    margin: 1.5rem; /* Moins d'espace autour de la section */
+}
+#cv a {
+    padding: 0.5rem 1.5rem; /* Bouton plus petit */
+    font-size: 1em; /* Taille de police plus petite */
+}
+#cv a:hover {
+    background-color: #6e00b3; /* Couleur de fond plus foncée */
+    transform: translateY(-5px); /* Légère élévation du bouton */
+}
+
+/* Effet au survol du bouton : focus (pour l'accessibilité) */
+#cv a:focus {
+    outline: none; /* Supprime le contour par défaut */
+    box-shadow: 0 0 10px rgba(143, 106, 150, 0.5); /* Ajoute un halo autour du bouton */
+}
