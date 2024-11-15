@@ -1,39 +1,40 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="index.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mon Portfolio</title>
 </head>
 <body>
-    <header>
-        <nav>
-            <ul>
-                <li><a href="#about">À propos de moi</a></li>
-                <li><a href="#contact">Contact</a></li>
+    <header class="bg-dark text-white p-5 text-center">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <ul class="navbar-nav">
+                <li class="nav-item"><a class="nav-link" href="#about">À propos de moi</a></li>
+                <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
             </ul>
         </nav>
-        <h1>Bienvenue sur mon Portfolio</h1>
+        <h1 class="display-4">Bienvenue sur mon Portfolio</h1>
     </header>
-    <section id="about">
-        <h2>À propos de moi</h2>
-        <h1>Samiaa Amara</h1>
-        <p>Développeuse Web</p>
-        <p>Je suis une développeuse web passionné par la création de sites web modernes et responsives.</p>
-        <img src="image.jpg" alt="Photo de profil">
-           </section>
-    <footer id="contact">
+    <section id="about" class="container mt-5">
+        <h2 class="text-center mb-5">À propos de moi</h2>
+        <div class="row justify-content-center">
+            <div class="col-md-6 text-center">
+                <h1>Samiaa Amara</h1>
+                <p class="lead">Développeuse Web</p>
+                <p>Je suis une développeuse web passionné par la création de sites web modernes et responsives.</p>
+                <img src="image.jpg" alt="Photo de profil" class="img-fluid rounded-circle">
+            </div>
+        </div>
+    </section>
+    <footer id="contact" class="bg-dark text-white p-5 text-center">
         <p>Contactez-moi : samiaa.amara50@gmail.com</p>
-        <ul>
-           
-            <li><a href="https://www.linkedin.com/in/samiaa-amara/">LinkedIn</a></li>
-           
-            <li><a href="https://github.com/samiaaamara/samiaaamara.github.io"></i>GitHub</a></li>
-           
-           <li><a href="https://www.instagram.com/amara_samiaa/"> Instagram</a></li>
-           
-            <li><a href="https://www.facebook.com/samiaa.amara.1?locale=fr_FR">Facebook</a></li>
+        <ul class="list-inline">
+            <li class="list-inline-item"><a href="https://www.linkedin.com/in/samiaa-amara/">LinkedIn</a></li>
+            <li class="list-inline-item"><a href="https://github.com/samiaaamara/samiaaamara.github.io">GitHub</a></li>
+            <li class="list-inline-item"><a href="https://www.instagram.com/amara_samiaa/">Instagram</a></li>
+            <li class="list-inline-item"><a href="https://www.facebook.com/samiaa.amara.1?locale=fr_FR">Facebook</a></li>
         </ul>
     </footer>
 </body>
